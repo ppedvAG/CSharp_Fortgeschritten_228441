@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{B1844B30-72EC-405D-A03C-A92683C3B323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{BF911BDB-DE9B-4B14-B9F6-74CBFB0DADD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading", "Multithreading\Multithreading.csproj", "{BF911BDB-DE9B-4B14-B9F6-74CBFB0DADD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{B6DF5459-2620-463C-92CD-9C1D4EEECC25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitasking", "Multitasking\Multitasking.csproj", "{B6DF5459-2620-463C-92CD-9C1D4EEECC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{F3686603-C879-4404-A1A3-74874CE3CE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{06A9EC15-8EB1-4BA4-8AB4-04C91BE71136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{B6DF5459-2620-463C-92CD-9C1D4EEECC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6DF5459-2620-463C-92CD-9C1D4EEECC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6DF5459-2620-463C-92CD-9C1D4EEECC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3686603-C879-4404-A1A3-74874CE3CE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3686603-C879-4404-A1A3-74874CE3CE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3686603-C879-4404-A1A3-74874CE3CE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3686603-C879-4404-A1A3-74874CE3CE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A9EC15-8EB1-4BA4-8AB4-04C91BE71136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A9EC15-8EB1-4BA4-8AB4-04C91BE71136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A9EC15-8EB1-4BA4-8AB4-04C91BE71136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A9EC15-8EB1-4BA4-8AB4-04C91BE71136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
