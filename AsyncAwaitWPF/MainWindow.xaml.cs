@@ -23,7 +23,7 @@ namespace AsyncAwaitWPF
 	{
         public string Buch { get; set; }
 
-        public MainWindow()
+		public MainWindow()
 		{
 			InitializeComponent();
 		}
